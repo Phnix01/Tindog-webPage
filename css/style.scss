@@ -1,0 +1,140 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-weight:bolder;
+    line-height: 1.5;
+}
+#title{
+    background-color: #ff4c68;
+    padding:3% 10% 15%;
+}
+.title-img{
+position: absolute;
+
+}
+.rotate{
+    transform: rotate(15deg);
+}
+/* Navabar and navbar items styling*/
+.navbar h1{
+    font-family:'Ubuntu';
+}
+.navbar{
+    padding:0 3rem;
+    margin-bottom: 3%;
+}
+.navbar-nav{
+    padding:1em 0;
+}
+.nav-item{
+    padding:0 1.2rem;
+    
+}
+// button styling 
+
+.btn-download{
+    margin:2% 3% 0% 0%;
+}
+/*----------------- features section styling -------------------*/
+#features{
+    padding:7% 15%;
+    background-color: #fff;
+    position: relative;
+    
+}
+.featureBox{
+    text-align:center;
+}
+.fa-check, .fa-heart, .fa-bullseye{
+    color:#ef8172;
+    &:hover{
+        color:#ff4c68;
+    }
+    
+}
+
+//  testimonials and press styling section
+#testimonials{
+    h2{
+        font-family: "Monsterrat-bold";
+    }
+    padding:7% 15%;
+    text-align:center;
+    background-color: #ef8172;
+    color:#fff;
+}
+.testimonials-img{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+
+}
+
+#press{
+    padding:3%;
+    text-align:center;
+    background-color: #ef8172;
+}
+.press-logo{
+    margin:20px 20px 30px 0px;
+}
+
+/* carousel testing styling */
+.blue{
+    width: 100%;
+    padding: 2em;
+    background-color: blue;
+    height: 920px;
+}
+.red{
+    background-color:red ;
+    width: 100%;
+    padding: 2em;
+    height: 920px;
+}
+.green{
+    background-color:green ;
+    width: 100%;
+    padding: 2em;
+    height: 920px;
+}
+.gray{
+    background-color: darkgray;
+    width: 100%;
+    padding: 2em;
+    height: 920px;
+}
+
+
+/* ---------------------------- princing section styling ---------------------------------*/
+#pricing{
+    padding:3%;
+}
+
+
+
+/* ------------------------------------- cta section styling -------------------------------*/
+#cta{
+    padding:15% 5%;
+    background-color: #ff4c68;
+    text-align: center;
+
+    h3{
+        color:#fff;
+        font-family: "Monsterrat-black";
+        font-size:45px;
+    }
+}
+/*--------------------- footer section styling -------------------------------------------*/
+#footer{
+    padding:5% 5%;
+    text-align: center;
+    .social-media{
+        line-height: 2;
+        a{
+            font-size: 25px;
+            margin-left:0.5rem;
+        }
+    }
+}
